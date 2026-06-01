@@ -1,0 +1,33 @@
+level 0 ---> 1
+level 1 ---> 2
+level 2 ---> 3
+
+solving these were easy but a bit confusing at the start. 
+the first level just had an easy command and boom your password is right there. 
+
+But when it came to the next two levels, it was easy but time consuming, you don't get to see those commands or actually imply those in day to day life, and that's what makes this special... Reading stuff up the internet, going through the web for information and commands on how you can solve a particular level. 
+One might get frustrated on how many attempts he has done and yet not found the key, one might get more motivated than he initially was. 
+For me, it's the second, because when I actually used "./" it made me realise how amazing this is. 
+Will be sharing my experience much often now on. 
+Stay curious.
+
+
+level 3---4
+ls is to see what folders are there 
+and to access a hidden folder "ls -a" and then to view the hidden folder content "cat .filename" 
+
+level 4---5 
+okay so human readable file it is....
+when i try to go with cat filename its just throwing me an error.
+Because when i try to use cat -filename it mistakens it as a command, so to look through the files I used file ./filename.
+The file command tells you what is the content in a particular file. IN this case all the files contained data, and one file contained ASCII value. 
+
+
+level 5---6
+A huge number of folders and so many files in one folder 
+and i'm to find one single file which has the key. pretty exhausting and time taking to go check from one file to another, But i did try that method and got tired in the 3rd folder itself. 
+then saw the question again, and wondered they might've given the properties for a reason... 
+Then i tried the actual cool commands... we need to find a file which is 1033 bytes in size... and non executable.
+and boom tried a few combinations and got the result.. 
+Now the challanges are getting quite good?? I felt like i actually learnt how to find a particular file in a big heap.
+
