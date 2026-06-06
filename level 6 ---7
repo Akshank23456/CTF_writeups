@@ -1,0 +1,16 @@
+level 6---7
+Now this was a simple yet hard find. 
+It said the flag was hid somehwere on the server and had the following properties :
+	owned by user bandit7 
+	owned by group bandit6 
+	33 bytes in size
+I was spawned in the bandit6 folder (which I didn't knew) (a classic begginer mistake 🐧😭). I start giving a few command, then pwd revealed where I was, went to the home directory and saw what folders we have here. 
+And boy where there so many, by now I understood that it's not about complex commands but understanding what situation you are in and what conditions are given to you. 
+Then i gave a simple:
+find / -user bandit7 -group bandit6 -size 33c  command.
+NOW, I got a whole lot of permission denied files. Then used the obvious command a freshie would use grep -v "Permission denied". 
+But it still didn't work.
+By now I understood that I have to take some help, when to google and searched how can I solve a permission denied issue.
+It showed me a simple command "2>/dev/null" told to add this at the end of the command above. 
+And boom I see the path to our flag. 
+Then I cat my way through the path and find the flag.
