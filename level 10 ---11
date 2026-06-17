@@ -1,0 +1,5 @@
+This was not much of a hassle. 
+There was one file whose content needed to be decoded. 
+The file contained base64 encoded data. 
+So just needed a command which would decode the file and we are good to go. 
+Simple and effective against those who don't know how encryption works. 
